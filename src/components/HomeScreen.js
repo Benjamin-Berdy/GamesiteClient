@@ -1,6 +1,8 @@
 import * as React from 'react';
 import {useContext} from "react";
 import {AuthContext} from '../auth';
+import AppBanner from "./AppBanner";
+
 
 
 export default function HomePage(){
@@ -8,6 +10,11 @@ export default function HomePage(){
 
     return(
         <div>
+            <AppBanner/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             HomeScreen
         </div>
     );
